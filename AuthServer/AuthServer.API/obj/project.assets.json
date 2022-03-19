@@ -75,6 +75,55 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "AuthServer.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/AuthServer.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AuthServer.Core.dll": {}
+        }
+      },
+      "AuthServer.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AuthServer.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AuthServer.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AuthServer.Data.dll": {}
+        }
+      },
+      "AuthServer.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AuthServer.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AuthServer.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AuthServer.Service.dll": {}
+        }
+      },
+      "SharedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -185,10 +234,32 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "AuthServer.Core/1.0.0": {
+      "type": "project",
+      "path": "../AuthServer.Core/AuthServer.Core.csproj",
+      "msbuildProject": "../AuthServer.Core/AuthServer.Core.csproj"
+    },
+    "AuthServer.Data/1.0.0": {
+      "type": "project",
+      "path": "../AuthServer.Data/AuthServer.Data.csproj",
+      "msbuildProject": "../AuthServer.Data/AuthServer.Data.csproj"
+    },
+    "AuthServer.Service/1.0.0": {
+      "type": "project",
+      "path": "../AuthServer.Service/AuthServer.Service.csproj",
+      "msbuildProject": "../AuthServer.Service/AuthServer.Service.csproj"
+    },
+    "SharedLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SharedLibrary/SharedLibrary.csproj",
+      "msbuildProject": "../SharedLibrary/SharedLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "AuthServer.Service >= 1.0.0",
+      "SharedLibrary >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -218,7 +289,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Burak\\Desktop\\NetCoreApi-JWT\\AuthServer\\AuthServer.Service\\AuthServer.Service.csproj": {
+              "projectPath": "C:\\Users\\Burak\\Desktop\\NetCoreApi-JWT\\AuthServer\\AuthServer.Service\\AuthServer.Service.csproj"
+            },
+            "C:\\Users\\Burak\\Desktop\\NetCoreApi-JWT\\AuthServer\\SharedLibrary\\SharedLibrary.csproj": {
+              "projectPath": "C:\\Users\\Burak\\Desktop\\NetCoreApi-JWT\\AuthServer\\SharedLibrary\\SharedLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -5,6 +5,20 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServer.API", "AuthServer.API\AuthServer.API.csproj", "{422DD4CF-053B-49C4-925F-66C650D28AAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServer.Core", "AuthServer.Core\AuthServer.Core.csproj", "{6410E2B2-3906-47B0-B2E2-2683D73F7A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServer.Data", "AuthServer.Data\AuthServer.Data.csproj", "{AFC0068E-9AE2-44D5-8EBA-0681185EAB5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServer.Service", "AuthServer.Service\AuthServer.Service.csproj", "{2F401436-F5BF-4266-92ED-60AFA22A9BD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniApp1.API", "MiniApp1.API\MiniApp1.API.csproj", "{ED837169-5DA1-4855-AEB1-4F811910B56A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniApp2.API", "MiniApp2.API\MiniApp2.API.csproj", "{4285FCCA-1A47-4912-B973-96FD65989225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniApp3.API", "MiniApp3.API\MiniApp3.API.csproj", "{3A6473DA-7198-4DFB-8B44-8BEB2384A475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{67BD0393-8BF5-4974-AF2C-CBABC699E23E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +29,34 @@ Global
 		{422DD4CF-053B-49C4-925F-66C650D28AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{422DD4CF-053B-49C4-925F-66C650D28AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{422DD4CF-053B-49C4-925F-66C650D28AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6410E2B2-3906-47B0-B2E2-2683D73F7A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6410E2B2-3906-47B0-B2E2-2683D73F7A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6410E2B2-3906-47B0-B2E2-2683D73F7A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6410E2B2-3906-47B0-B2E2-2683D73F7A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC0068E-9AE2-44D5-8EBA-0681185EAB5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC0068E-9AE2-44D5-8EBA-0681185EAB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC0068E-9AE2-44D5-8EBA-0681185EAB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC0068E-9AE2-44D5-8EBA-0681185EAB5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F401436-F5BF-4266-92ED-60AFA22A9BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F401436-F5BF-4266-92ED-60AFA22A9BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F401436-F5BF-4266-92ED-60AFA22A9BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F401436-F5BF-4266-92ED-60AFA22A9BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED837169-5DA1-4855-AEB1-4F811910B56A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED837169-5DA1-4855-AEB1-4F811910B56A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED837169-5DA1-4855-AEB1-4F811910B56A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED837169-5DA1-4855-AEB1-4F811910B56A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4285FCCA-1A47-4912-B973-96FD65989225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4285FCCA-1A47-4912-B973-96FD65989225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4285FCCA-1A47-4912-B973-96FD65989225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4285FCCA-1A47-4912-B973-96FD65989225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6473DA-7198-4DFB-8B44-8BEB2384A475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6473DA-7198-4DFB-8B44-8BEB2384A475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6473DA-7198-4DFB-8B44-8BEB2384A475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6473DA-7198-4DFB-8B44-8BEB2384A475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BD0393-8BF5-4974-AF2C-CBABC699E23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BD0393-8BF5-4974-AF2C-CBABC699E23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BD0393-8BF5-4974-AF2C-CBABC699E23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BD0393-8BF5-4974-AF2C-CBABC699E23E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -65,7 +65,7 @@ namespace AuthServer.Service.Services
 
             await _unitOfWork.CommitAsync();
 
-            return Response<TokenDto>.Success(token, 2000);
+            return Response<TokenDto>.Success(token, 200);
             
         }
 

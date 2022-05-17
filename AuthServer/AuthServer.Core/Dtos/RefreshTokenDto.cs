@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AuthServer.Core.DTOs
+namespace AuthServer.Core.Dtos
 {
     public class RefreshTokenDto
     {

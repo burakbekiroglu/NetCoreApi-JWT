@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using AuthServer.Core.DTOs;
+
 using AuthServer.Core.Services;
 using AuthServer.Core.Dtos;
 

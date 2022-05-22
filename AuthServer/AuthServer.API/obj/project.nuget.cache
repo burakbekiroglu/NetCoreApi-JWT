@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IQgqn0JKTEtoUP7RSocvQ3x4I2HLEx7bs/WYyMghezqvhrKsGTWF5hAWowpQPM0ZVteZd9PxMQmR/oXv7eCArg==",
+  "dgSpecHash": "dleupM+lvXC2DtTILptWyLz8JuwxmIItxiBwzqLE8zjPcesab5xkhZnnm7FIdbR0RKaPBTDYGB0v2Dh3Kmq84w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Burak\\Desktop\\NetCoreApi-JWT\\AuthServer\\AuthServer.API\\AuthServer.API.csproj",
   "expectedPackageFiles": [

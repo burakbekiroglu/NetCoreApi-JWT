@@ -2,6 +2,7 @@
 using AuthServer.Core.Dtos;
 using AuthServer.Core.Entities;
 using AuthServer.Core.Services;
+using AuthServer.SharedLibrary.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;

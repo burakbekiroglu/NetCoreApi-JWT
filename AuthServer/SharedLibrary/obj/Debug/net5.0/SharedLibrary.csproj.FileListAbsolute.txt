@@ -9,3 +9,4 @@ C:\Users\Burak\Desktop\NetCoreApi-JWT\AuthServer\SharedLibrary\obj\Debug\net5.0\
 C:\Users\Burak\Desktop\NetCoreApi-JWT\AuthServer\SharedLibrary\obj\Debug\net5.0\SharedLibrary.dll
 C:\Users\Burak\Desktop\NetCoreApi-JWT\AuthServer\SharedLibrary\obj\Debug\net5.0\ref\SharedLibrary.dll
 C:\Users\Burak\Desktop\NetCoreApi-JWT\AuthServer\SharedLibrary\obj\Debug\net5.0\SharedLibrary.pdb
+C:\Users\Burak\Desktop\NetCoreApi-JWT\AuthServer\SharedLibrary\obj\Debug\net5.0\SharedLibrary.csproj.AssemblyReference.cache

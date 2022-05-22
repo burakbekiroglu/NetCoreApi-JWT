@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dleupM+lvXC2DtTILptWyLz8JuwxmIItxiBwzqLE8zjPcesab5xkhZnnm7FIdbR0RKaPBTDYGB0v2Dh3Kmq84w==",
+  "dgSpecHash": "zrKm8m6I5fcZwztM2jmdoHL7Zwp6F5yqeKoga6fTsfhJ7TQbhAW3O92zGZc9jJ+uGV1cx0l1OCy2bHN1+EClTA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Burak\\Desktop\\NetCoreApi-JWT\\AuthServer\\AuthServer.API\\AuthServer.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Burak\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Burak\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
+    "C:\\Users\\Burak\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
+    "C:\\Users\\Burak\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.1\\microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
